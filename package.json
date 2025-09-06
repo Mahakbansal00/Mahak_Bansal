@@ -4,13 +4,13 @@
   "version": "0.0.0",
   "homepage": "https://Mahakbansal00.github.io/Mahak_Bansal",
   "type": "module",
-  "scripts": {
+"scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "npm run build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
